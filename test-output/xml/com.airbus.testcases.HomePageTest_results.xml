@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DemoTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.236">
+  <properties />
+  
+  
+            <testcase name="DemoulinkTest" time="0.094" classname="com.airbus.testcases.HomePageTest" />
+                <testcase name="HomePagetitleTest" time="0.029" classname="com.airbus.testcases.HomePageTest" />
+                <testcase name="InputFormNavigationTest" time="0.113" classname="com.airbus.testcases.HomePageTest" />
+      
+</testsuite>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-09T12:40:22 IST" name="FreeCRMTest" finished-at="2020-02-09T12:43:45 IST" duration-ms="203470">
+    <groups>
+    </groups>
+    <test started-at="2020-02-09T12:40:22 IST" name="DemoTest" finished-at="2020-02-09T12:43:45 IST" duration-ms="203470">
+      <class name="com.airbus.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.airbus.testcases.HomePageTest@306f16f3]" started-at="2020-02-09T12:41:56 IST" name="setup" finished-at="2020-02-09T12:42:35 IST" duration-ms="38375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DemoulinkTest()[pri:0, instance:com.airbus.testcases.HomePageTest@306f16f3]" started-at="2020-02-09T12:42:35 IST" name="DemoulinkTest" finished-at="2020-02-09T12:42:35 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoulinkTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.airbus.testcases.HomePageTest@306f16f3]" started-at="2020-02-09T12:42:35 IST" name="teardown" finished-at="2020-02-09T12:42:37 IST" duration-ms="2549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.airbus.testcases.HomePageTest@306f16f3]" started-at="2020-02-09T12:42:37 IST" name="setup" finished-at="2020-02-09T12:43:12 IST" duration-ms="35025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePagetitleTest()[pri:0, instance:com.airbus.testcases.HomePageTest@306f16f3]" started-at="2020-02-09T12:43:12 IST" name="HomePagetitleTest" finished-at="2020-02-09T12:43:12 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagetitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.airbus.testcases.HomePageTest@306f16f3]" started-at="2020-02-09T12:43:12 IST" name="teardown" finished-at="2020-02-09T12:43:13 IST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.airbus.testcases.HomePageTest@306f16f3]" started-at="2020-02-09T12:43:13 IST" name="setup" finished-at="2020-02-09T12:43:44 IST" duration-ms="30624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InputFormNavigationTest()[pri:0, instance:com.airbus.testcases.HomePageTest@306f16f3]" started-at="2020-02-09T12:43:44 IST" name="InputFormNavigationTest" finished-at="2020-02-09T12:43:44 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputFormNavigationTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.airbus.testcases.HomePageTest@306f16f3]" started-at="2020-02-09T12:43:44 IST" name="teardown" finished-at="2020-02-09T12:43:45 IST" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.airbus.testcases.HomePageTest -->
+      <class name="com.airbus.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:40:22 IST" name="setup" finished-at="2020-02-09T12:40:52 IST" duration-ms="29764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePagevalidationTest()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:40:52 IST" name="HomePagevalidationTest" finished-at="2020-02-09T12:40:52 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagevalidationTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:40:52 IST" name="teardown" finished-at="2020-02-09T12:40:54 IST" duration-ms="1772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePagevalidationTest status=SUCCESS method=LoginPageTest.HomePagevalidationTest()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:40:54 IST" name="setup" finished-at="2020-02-09T12:41:18 IST" duration-ms="24144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginPagetitleTest()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:41:18 IST" name="LoginPagetitleTest" finished-at="2020-02-09T12:41:18 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPagetitleTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:41:18 IST" name="teardown" finished-at="2020-02-09T12:41:19 IST" duration-ms="1031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPagetitleTest status=SUCCESS method=LoginPageTest.LoginPagetitleTest()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:41:19 IST" name="setup" finished-at="2020-02-09T12:41:42 IST" duration-ms="23407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:41:42 IST" name="LoginTest" finished-at="2020-02-09T12:41:54 IST" duration-ms="11732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:41:54 IST" name="teardown" finished-at="2020-02-09T12:41:56 IST" duration-ms="1952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginPageTest.LoginTest()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endreport()[pri:0, instance:com.airbus.testcases.LoginPageTest@1b6e1eff]" started-at="2020-02-09T12:43:45 IST" name="endreport" finished-at="2020-02-09T12:43:45 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.airbus.testcases.LoginPageTest -->
+    </test> <!-- DemoTest -->
+  </suite> <!-- FreeCRMTest -->
+</testng-results>

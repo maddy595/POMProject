@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FreeCRMTest" class="navigator-link">
+              <span class="suite-name border-passed">FreeCRMTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FreeCRMTest" class="navigator-link ">
+                    <span>C:\Users\madhav.gaikwad\eclipse-workspace2\POMSample\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FreeCRMTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FreeCRMTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FreeCRMTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FreeCRMTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FreeCRMTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FreeCRMTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FreeCRMTest" class="hide-methods passed suite-FreeCRMTest"> (hide)</a> <!-- hide-methods passed suite-FreeCRMTest -->
+                      <a href="#" panel-name="suite-FreeCRMTest" class="show-methods passed suite-FreeCRMTest"> (show)</a> <!-- show-methods passed suite-FreeCRMTest -->
+                    </span>
+                    <div class="method-list-content passed suite-FreeCRMTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRMTest" title="com.airbus.testcases.HomePageTest" class="method navigator-link" hash-for-method="DemoulinkTest">DemoulinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRMTest" title="com.airbus.testcases.HomePageTest" class="method navigator-link" hash-for-method="HomePagetitleTest">HomePagetitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRMTest" title="com.airbus.testcases.LoginPageTest" class="method navigator-link" hash-for-method="HomePagevalidationTest">HomePagevalidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRMTest" title="com.airbus.testcases.HomePageTest" class="method navigator-link" hash-for-method="InputFormNavigationTest">InputFormNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRMTest" title="com.airbus.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginPagetitleTest">LoginPagetitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRMTest" title="com.airbus.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FreeCRMTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FreeCRMTest" class="panel FreeCRMTest">
+          <div class="suite-FreeCRMTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.airbus.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePagevalidationTest">
+                  </a> <!-- HomePagevalidationTest -->
+                  <span class="method-name">HomePagevalidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPagetitleTest">
+                  </a> <!-- LoginPagetitleTest -->
+                  <span class="method-name">LoginPagetitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest">
+                  </a> <!-- LoginTest -->
+                  <span class="method-name">LoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FreeCRMTest-class-passed -->
+          <div class="suite-FreeCRMTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.airbus.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DemoulinkTest">
+                  </a> <!-- DemoulinkTest -->
+                  <span class="method-name">DemoulinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePagetitleTest">
+                  </a> <!-- HomePagetitleTest -->
+                  <span class="method-name">HomePagetitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputFormNavigationTest">
+                  </a> <!-- InputFormNavigationTest -->
+                  <span class="method-name">InputFormNavigationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FreeCRMTest-class-passed -->
+        </div> <!-- panel FreeCRMTest -->
+        <div panel-name="test-xml-FreeCRMTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\madhav.gaikwad\eclipse-workspace2\POMSample\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FreeCRMTest&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DemoTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.airbus.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.airbus.testcases.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DemoTest --&gt;
+&lt;/suite&gt; &lt;!-- FreeCRMTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FreeCRMTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FreeCRMTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DemoTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FreeCRMTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FreeCRMTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FreeCRMTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FreeCRMTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FreeCRMTest');
+function tableData_FreeCRMTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginTest')
+data.setCell(0, 2, 'com.airbus.testcases.LoginPageTest')
+data.setCell(0, 3, 11732);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'HomePagevalidationTest')
+data.setCell(1, 2, 'com.airbus.testcases.LoginPageTest')
+data.setCell(1, 3, 169);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'InputFormNavigationTest')
+data.setCell(2, 2, 'com.airbus.testcases.HomePageTest')
+data.setCell(2, 3, 113);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DemoulinkTest')
+data.setCell(3, 2, 'com.airbus.testcases.HomePageTest')
+data.setCell(3, 3, 94);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginPagetitleTest')
+data.setCell(4, 2, 'com.airbus.testcases.LoginPageTest')
+data.setCell(4, 3, 63);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'HomePagetitleTest')
+data.setCell(5, 2, 'com.airbus.testcases.HomePageTest')
+data.setCell(5, 3, 29);
+window.suiteTableData['FreeCRMTest']= { tableData: data, tableDiv: 'times-div-FreeCRMTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-FreeCRMTest">
+              </div> <!-- times-div-FreeCRMTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FreeCRMTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FreeCRMTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FreeCRMTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FreeCRMTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.airbus.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePagevalidationTest</span>
+                <span class="method-start">29766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=HomePagevalidationTest status=SUCCESS method=LoginPageTest.HomePagevalidationTest()...)</span>
+                <span class="method-start">29942 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPagetitleTest</span>
+                <span class="method-start">55874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=LoginPagetitleTest status=SUCCESS method=LoginPageTest.LoginPagetitleTest()[pri:0, ...)</span>
+                <span class="method-start">55944 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">56977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginTest</span>
+                <span class="method-start">80385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=LoginTest status=SUCCESS method=LoginPageTest.LoginTest()[pri:0, instance:com.airbu...)</span>
+                <span class="method-start">92127 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.airbus.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">94082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DemoulinkTest</span>
+                <span class="method-start">132458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">132555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">135105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePagetitleTest</span>
+                <span class="method-start">170130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">170161 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">171414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InputFormNavigationTest</span>
+                <span class="method-start">202038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">202153 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.airbus.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endreport</span>
+                <span class="method-start">203326 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
